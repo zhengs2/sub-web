@@ -256,7 +256,7 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "sub-beta.vercel.app": "https://sub-beta.vercel.app/sub?",
+          "zhengss1后端(zhengss1提供）": "https://sub.zhengss1.ms/sub?",
           "subcon.dlj.tf(subconverter作者提供-稳定)":
             "https://subcon.dlj.tf/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
@@ -265,7 +265,7 @@ export default {
         },
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
-          { value: "https://sub-beta.now.sh/sub?" },
+          { value: "https://sub.zhengss1.ms/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api.dler.io/sub?" },
           { value: "https://api.wcc.best/sub?" },
@@ -285,9 +285,9 @@ export default {
             label: "ACL4SSR",
             options: [
               {
-                label: "ACL4SSR_Online 默认版 分组比较全(与Github同步)",
+                label: "zhengss1 前端自定义规则",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+                  "https://raw.githubusercontent.com/zhengss1/clash/main/celuo.list"
               },
               {
                 label: "ACL4SSR_Online_AdblockPlus 更多去广告(与Github同步)",
