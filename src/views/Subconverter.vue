@@ -256,19 +256,19 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "zhengss1后端(zhengss1提供）": "https://sub.zhengss1.ms/sub?",
-          "subcon.dlj.tf(subconverter作者提供-稳定)":
+          "sub.xeton.dev(1号转换）": "https://sub.xeton.dev/sub?",
+          "subcon.dlj.tf(2号转换)":
             "https://subcon.dlj.tf/sub?",
-          "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
-          "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?",
-          "sub.id9.cc(品云转换)": "https://sub.id9.cc/sub?",
+          "api.dler.io(3号转换)": "https://api.dler.io/sub?",
+          "sub.maoxiongnet.com(4号转换)": "https://sub.maoxiongnet.com/sub?",
+          "sub.id9.cc(5号转换)": "https://sub.id9.cc/sub?",
         },
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
-          { value: "https://sub.zhengss1.ms/sub?" },
+          { value: "https://sub.xeton.dev/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api.dler.io/sub?" },
-          { value: "https://api.wcc.best/sub?" },
+          { value: "https://sub.maoxiongnet.com/sub?" },
           { value: "https://sub.id9.cc/sub?" },
         ],
         remoteConfig: [
@@ -285,9 +285,9 @@ export default {
             label: "ACL4SSR",
             options: [
               {
-                label: "zhengss1 前端自定义规则",
+                label: "zhengs2 前端自定义规则",
                 value:
-                  "https://raw.githubusercontent.com/zhengss1/clash/main/celuo.list"
+                  "https://raw.githubusercontent.com/zhengs2/clash/main/celuo.list"
               },
               {
                 label: "ACL4SSR_Online_AdblockPlus 更多去广告(与Github同步)",
